@@ -48,9 +48,16 @@ paloAbajo.style.height = "50px";
 
 //Color segun el palo
 if (paloElegido === "♥" || paloAbajo === "♦") {
-  carta.style.color = "red";
+  paloArriba.style.color = "red";
+  paloAbajo.style.color = "red";
+  numero.style.color= "black";
+
 } else {
-  carta.style.color = "black";
+   paloArriba.style.color = "black";
+   paloAbajo.style.color = "black";
+   numero.style.color= "black";
+
+  
 }
 
 };
